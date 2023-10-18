@@ -1,0 +1,9 @@
+font:
+  size: 10.0
+  normal:
+    family: Cascadia Mono
+    style: Regular
+  bold:
+    family: Cascadia Mono
+  italic:
+    family: Cascadia Mono
