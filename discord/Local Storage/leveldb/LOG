@@ -1,6 +1,0 @@
-2023/10/18-13:04:39.184 82a1 Reusing MANIFEST /home/arch/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2023/10/18-13:04:39.184 82a1 Recovering log #4
-2023/10/18-13:04:39.184 82a1 Reusing old log /home/arch/.config/discord/Local Storage/leveldb/000004.log 
-2023/10/18-13:19:51.408 82f7 Level-0 table #8: started
-2023/10/18-13:19:51.465 82f7 Level-0 table #8: 2063802 bytes OK
-2023/10/18-13:19:51.471 82f7 Delete type=0 #4
