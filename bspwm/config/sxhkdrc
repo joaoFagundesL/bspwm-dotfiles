@@ -1,4 +1,4 @@
-# Keybindings
+#Keybindings
 
 # Terminal
 super + Return
@@ -19,9 +19,6 @@ super + shift + e
 # Quit/Restart BSPWM
 super + alt + {q,r}
 	bspc {quit,wm -r}
-
-super + alt + w
-	feh -z --no-fehbg --bg-fill ~/Pictures/
 
 # Restart sxhkd
 super + Escape
@@ -106,10 +103,6 @@ ctrl + Print
   scrot -s ~/Pictures/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/Pictures/$(date +"%Y-%m-%d-%T")-screenshot.png"
 alt + Print
   scrot --delay 5 ~/Pictures/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/Pictures/$(date +"%Y-%m-%d-%T")-screenshot.png"
-
-# Wiki
-super + grave
-  firefox https://github.com/p3nguin-kun/penguinRice/wiki/
 
 # Colorscheme changer
 alt + space
