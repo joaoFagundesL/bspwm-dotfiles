@@ -16,6 +16,9 @@ picom --config ~/.config/bspwm/config/picom/picom.conf &
 # Network Manager Applet
 nm-applet &
 
+# Screenshot
+flameshot &
+
 # Polkit
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 

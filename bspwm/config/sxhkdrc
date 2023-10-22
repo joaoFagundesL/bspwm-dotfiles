@@ -98,11 +98,11 @@ super + {Left,Down,Up,Right}
 
 # Screenshot
 Print
-  scrot ~/Pictures/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/Pictures/$(date +"%Y-%m-%d-%T")-screenshot.png"
+  maim --format=png /dev/stdout | xclip -selection clipboard -t image/png -i
 ctrl + Print
-  scrot -s ~/Pictures/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/Pictures/$(date +"%Y-%m-%d-%T")-screenshot.png"
+  flameshot gui
 alt + Print
-  scrot --delay 5 ~/Pictures/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/Pictures/$(date +"%Y-%m-%d-%T")-screenshot.png"
+  scrot --delay 5 /tmp/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to /tmp/$(date +"%Y-%m-%d-%T")-screenshot.png"
 
 # Colorscheme changer
 alt + space
