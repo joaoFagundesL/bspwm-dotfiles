@@ -1,0 +1,13 @@
+tmp - /tmp
+ - /
+home - /home
+arch - /home/arch
+.config - /home/arch/.config
+bspwm - /home/arch/.config/bspwm
+config - /home/arch/.config/bspwm/config
+polybar - /home/arch/.config/bspwm/config/polybar
+config.ini - /home/arch/.config/bspwm/config/polybar/config.ini
+config - /home/arch/.config/bspwm/config
+Documents - /home/arch/Documents
+Documents - /home/arch/Documents
+compiler - /home/arch/Documents/compiler
