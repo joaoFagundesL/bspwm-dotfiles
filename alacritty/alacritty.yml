@@ -1,5 +1,5 @@
 import:
-  - ~/.config/alacritty/mono.yml
+  - ~/.config/alacritty/macaroni-dark.yaml
   - ~/.config/alacritty/fonts.yml
   - ~/.config/alacritty/config.yml
   

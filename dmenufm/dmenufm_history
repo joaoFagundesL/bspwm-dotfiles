@@ -11,3 +11,9 @@ config - /home/arch/.config/bspwm/config
 Documents - /home/arch/Documents
 Documents - /home/arch/Documents
 compiler - /home/arch/Documents/compiler
+dmenufm.conf - /home/arch/.config/dmenufm/dmenufm.conf
+.config - /home/arch/.config
+bspwm - /home/arch/.config/bspwm
+bspwmrc - /home/arch/.config/bspwm/bspwmrc
+polybar-scripts - /home/arch/.config/bspwm/polybar-scripts
+polybar-windows.sh - /home/arch/.config/bspwm/polybar-scripts/polybar-windows.sh
