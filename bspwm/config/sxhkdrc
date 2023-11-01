@@ -64,7 +64,7 @@ super + {p,b,comma,period}
 
 # Previous/Next workspace
 super + bracket{left,right}
-	bspc desktop -f {prev,next}.local
+	bspc desktop -f {next,prev}.local
 
 # Change workspace/Move window to workspace
 super + {_,shift + }{1-9,0}
