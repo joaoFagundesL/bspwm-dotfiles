@@ -17,3 +17,4 @@ bspwm - /home/arch/.config/bspwm
 bspwmrc - /home/arch/.config/bspwm/bspwmrc
 polybar-scripts - /home/arch/.config/bspwm/polybar-scripts
 polybar-windows.sh - /home/arch/.config/bspwm/polybar-scripts/polybar-windows.sh
+AlternateServices.bin - /home/arch/.mozilla/firefox/uu71o9kv.default-release/AlternateServices.bin
