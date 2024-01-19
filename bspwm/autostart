@@ -1,11 +1,13 @@
 #!/bin/sh
-# Autostart file for penguinRice
 
 # Xresources
 xrdb merge ~/.Xresources &
 
 # Wallpaper
 ~/.fehbg &
+
+# Speed keyboard
+xset r rate 200 60
 
 # Bar
 ~/.config/bspwm/bin/bar &

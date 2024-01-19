@@ -5,7 +5,7 @@ window:
 
   decorations: full
 
-  opacity: 1
+  opacity: .75
   dynamic_title: true
 
   history: 10000
