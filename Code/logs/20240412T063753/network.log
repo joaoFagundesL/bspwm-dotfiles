@@ -1,4 +1,0 @@
-2024-04-12 06:37:56.304 [error] electron #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/863d2581ecda6849923a2118d93a088b0745d9d6 - error undefined net::ERR_INTERNET_DISCONNECTED
-2024-04-12 06:37:58.087 [error] electron #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
-2024-04-12 06:37:58.368 [error] electron #4: https://update.code.visualstudio.com/api/update/linux-x64/stable/863d2581ecda6849923a2118d93a088b0745d9d6 - error undefined net::ERR_INTERNET_DISCONNECTED
-2024-04-12 06:38:01.085 [error] electron #5: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NETWORK_CHANGED

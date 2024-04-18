@@ -1,8 +1,0 @@
-2024-04-13 17:17:12.475 [info] update#setState idle
-2024-04-13 17:17:42.476 [info] update#setState checking for updates
-2024-04-13 17:17:42.481 [info] update#setState available for download
-2024-04-13 23:11:25.309 [error] ptyHost terminated unexpectedly with code 15
-2024-04-13 23:11:25.315 [warning] [UtilityProcess type: ptyHost, pid: 567671]: unable to kill the process
-2024-04-13 23:11:25.338 [error] [UtilityProcess type: shared-process, pid: 567711]: crashed with code 15 and reason 'killed'
-2024-04-13 23:11:25.357 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 567712]: crashed with code 15 and reason 'killed'
-2024-04-13 23:11:25.362 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)

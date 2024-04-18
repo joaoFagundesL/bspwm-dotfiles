@@ -1,6 +1,0 @@
-!#/bin/bash
-maim -s --format=png /tmp/screenshot.png | xclip -selection clipboard -t image/png -i
-feh -x -F /tmp/screenshot.png &
-id=$!
-maim -s /tmp/croppedshot.png
-kill $id

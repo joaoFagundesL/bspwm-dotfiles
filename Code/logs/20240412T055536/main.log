@@ -1,7 +1,0 @@
-2024-04-12 05:55:36.706 [info] update#setState idle
-2024-04-12 05:55:45.928 [info] Extension host with pid 479276 exited with code: 0, signal: unknown.
-2024-04-12 05:55:45.936 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
-2024-04-12 05:55:45.937 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 479297]: crashed with code 15 and reason 'killed'
-2024-04-12 05:56:06.707 [info] update#setState checking for updates
-2024-04-12 05:56:06.713 [info] update#setState available for download
-2024-04-12 06:36:42.313 [error] CodeWindow: detected unresponsive
