@@ -1,0 +1,576 @@
+!SESSION 2024-03-20 16:21:12.836 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --stdio
+Command-line arguments:  -data /home/arch/.config/Code/User/workspaceStorage/105e3ad061dc80e59c465df60ae77c7d/redhat.java/jdt_ws --stdio
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:15.707
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:16.145
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:16.229
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:16.233
+!MESSAGE Initializing Java Language Server 1.33.0.202402151519
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:16.234
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:17.950
+!MESSAGE ProjectRegistryRefreshJob finished 1716ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:17.991
+!MESSAGE Started org.eclipse.buildship.core 41ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.130
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk as 'JavaSE-21' environment (id:1710962478104)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.133
+!MESSAGE Setting java.home /usr/lib/jvm/java-21-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.147
+!MESSAGE Default VM Install changed from  1710962478073-/home/arch/.vscode/extensions/redhat.java-1.28.1-linux-x64/jre/17.0.10-linux-x86_64 to 1710962478104-/usr/lib/jvm/java-21-openjdk
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.156
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.183
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.186
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.187
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.188
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.188
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.188
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.189
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.190
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.190
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.191
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.191
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.192
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.215
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.226
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.229
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:18.383
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:19.413
+!MESSAGE Try to create an invisible project for the workspace /home/arch/Documents/java/Teste
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:19.413
+!MESSAGE Creating the Java project Teste_106c0275
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:19.436
+!MESSAGE Finished creating the Java project Teste_106c0275
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:19.443
+!MESSAGE Successfully created a workspace invisible project Teste_106c0275
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:19.468
+!MESSAGE Workspace initialized in 1254ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:19.523
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:19.526
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:19.528
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:20.178
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY java-debug 1 0 2024-03-20 16:21:20.286
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:20.465
+!MESSAGE >> Updating classpath for project Teste_106c0275
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:20.746
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:20.963
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:20.973
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:21:20.974
+!MESSAGE Validated 1. Took 194 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:12.105
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:12.617
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:12.617
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:12.618
+!MESSAGE Validated 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:26.579
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:26.641
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:27.140
+!MESSAGE begin problem for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:27.141
+!MESSAGE 1 problems reported for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-03-20 16:22:27.142
+!MESSAGE _ [in Teste_106c0275] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): _ [in Teste_106c0275] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:764)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:431)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:328)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:975)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:135)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:144)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:111)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1311)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:326)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:289)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:751)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-03-20 16:22:27.142
+!MESSAGE _ [in Teste_106c0275] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:27.145
+!MESSAGE Validated 1. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:44.797
+!MESSAGE Clearing problems for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:44.823
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:44.824
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:45.286
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:45.286
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:45.287
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:48.261
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:48.265
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:48.740
+!MESSAGE begin problem for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:48.740
+!MESSAGE 1 problems reported for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-03-20 16:22:48.740
+!MESSAGE _ [in Teste_106c0275] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): _ [in Teste_106c0275] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:764)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:431)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:328)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:975)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:135)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:144)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:111)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1311)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:326)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:289)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:751)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-03-20 16:22:48.741
+!MESSAGE _ [in Teste_106c0275] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:22:48.741
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:23:55.222
+!MESSAGE Clearing problems for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:23:55.271
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:23:55.272
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:23:55.478
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:23:55.572
+!MESSAGE Clearing problems for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:23:55.942
+!MESSAGE begin problem for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:23:55.943
+!MESSAGE 1 problems reported for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:23:55.943
+!MESSAGE Validated 1. Took 64 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:24:11.807
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:24:11.809
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-03-20 16:24:11.953
+!MESSAGE failed to send diagnostics
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): 'WindowBuilder\GUI' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.visit(WorkspaceDiagnosticsHandler.java:183)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:87)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.resourceChanged(WorkspaceDiagnosticsHandler.java:108)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:221)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-03-20 16:24:11.953
+!MESSAGE 'WindowBuilder\GUI' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:24:12.129
+!MESSAGE Clearing problems for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:24:12.234
+!MESSAGE begin problem for /GUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:24:12.234
+!MESSAGE 0 problems reported for /GUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:24:12.235
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:18.115
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:18.116
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:18.582
+!MESSAGE begin problem for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:18.582
+!MESSAGE 1 problems reported for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-03-20 16:25:18.582
+!MESSAGE _ [in Teste_106c0275] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): _ [in Teste_106c0275] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:764)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:431)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:328)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:975)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:135)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:144)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:111)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1311)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:326)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:289)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:751)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-03-20 16:25:18.582
+!MESSAGE _ [in Teste_106c0275] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:18.583
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:22.176
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:22.647
+!MESSAGE begin problem for /GUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:22.647
+!MESSAGE 0 problems reported for /GUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:22.647
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:23.483
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:23.955
+!MESSAGE begin problem for /GUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:23.955
+!MESSAGE 0 problems reported for /GUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:23.956
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:51.025
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:51.491
+!MESSAGE begin problem for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:51.491
+!MESSAGE 1 problems reported for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-03-20 16:25:51.491
+!MESSAGE _ [in Teste_106c0275] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): _ [in Teste_106c0275] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:764)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:431)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:328)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:975)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:135)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:144)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:111)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1311)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:326)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:289)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:751)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-03-20 16:25:51.491
+!MESSAGE _ [in Teste_106c0275] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:51.492
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:52.400
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:52.820
+!MESSAGE begin problem for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:52.820
+!MESSAGE 1 problems reported for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-03-20 16:25:52.821
+!MESSAGE _ [in Teste_106c0275] does not exist
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): _ [in Teste_106c0275] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:764)
+	at org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:431)
+	at org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:328)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:975)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:149)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:135)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:144)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:111)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1311)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:326)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:289)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:751)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-03-20 16:25:52.822
+!MESSAGE _ [in Teste_106c0275] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:52.823
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:55.850
+!MESSAGE Clearing problems for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 16:25:56.174
+!MESSAGE Clearing problems for /WindowBuilder%5CGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:00:17.418
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:00:17.419
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:00:17.430
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:00:17.436
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-03-20 17:55:53.629 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --stdio
+Command-line arguments:  -data /home/arch/.config/Code/User/workspaceStorage/105e3ad061dc80e59c465df60ae77c7d/redhat.java/jdt_ws --stdio
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:55.981
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:56.244
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:56.292
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:56.294
+!MESSAGE Initializing Java Language Server 1.33.0.202402151519
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:56.294
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.018
+!MESSAGE ProjectRegistryRefreshJob finished 1723ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.055
+!MESSAGE Started org.eclipse.buildship.core 37ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.125
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.125
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.126
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.126
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.126
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.126
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.127
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.127
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.127
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.127
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.128
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.128
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.161
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:58.167
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:59.726
+!MESSAGE Workspace initialized in 1564ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:59.747
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:59.750
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:55:59.752
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:56:00.276
+!MESSAGE >> Updating classpath for project Teste_106c0275
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:56:00.294
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:56:00.449
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY java-debug 1 0 2024-03-20 17:56:00.456
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:56:01.170
+!MESSAGE begin problem for /GUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:56:01.172
+!MESSAGE 0 problems reported for /GUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:56:01.173
+!MESSAGE Validated 1. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:56:16.708
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:56:16.709
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:56:16.731
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-20 17:56:16.737
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

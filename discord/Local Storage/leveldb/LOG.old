@@ -1,0 +1,8 @@
+2024/04/11-09:08:43.547 1d215c Reusing MANIFEST /home/arch/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/04/11-09:08:43.559 1d215c Recovering log #652
+2024/04/11-09:08:43.575 1d215c Level-0 table #655: started
+2024/04/11-09:08:43.649 1d215c Level-0 table #655: 2279612 bytes OK
+2024/04/11-09:08:43.659 1d215c Delete type=0 #652
+2024/04/11-09:11:18.258 1d24f9 Level-0 table #658: started
+2024/04/11-09:11:18.273 1d24f9 Level-0 table #658: 747492 bytes OK
+2024/04/11-09:11:18.279 1d24f9 Delete type=0 #656

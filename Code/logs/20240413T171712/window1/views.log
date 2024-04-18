@@ -1,0 +1,15 @@
+2024-04-13 17:17:13.109 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2024-04-13 17:17:13.109 [info] Added views:workbench.panel.output in workbench.panel.output
+2024-04-13 17:17:13.109 [info] Added views:terminal in terminal
+2024-04-13 17:17:13.109 [info] Added views:outline in workbench.view.explorer
+2024-04-13 17:17:13.109 [info] Added views:workbench.scm in workbench.view.scm
+2024-04-13 17:17:13.109 [info] Added views:workbench.view.search in workbench.view.search
+2024-04-13 17:17:13.109 [info] Added views:timeline in workbench.view.explorer
+2024-04-13 17:17:13.109 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2024-04-13 17:17:13.318 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2024-04-13 17:17:14.070 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2024-04-13 17:17:15.430 [info] Added views:javaProjectExplorer in workbench.view.explorer
+2024-04-13 17:17:15.564 [info] Added views:workbench.view.testing in workbench.view.extension.test
+2024-04-13 17:17:15.587 [info] Added views:dartDependencyTree in workbench.view.explorer
+2024-04-13 17:17:15.595 [info] Added views:dartFlutterSidebar,dartFlutterOutline in workbench.view.extension.flutter
+2024-04-13 17:17:20.504 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer

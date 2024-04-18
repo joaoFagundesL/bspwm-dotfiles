@@ -1,0 +1,318 @@
+Visual Studio Code (1.87.2, undefined, desktop)
+Jupyter Extension Version: 2024.2.0.
+Python Extension not installed.
+Pylance Extension not installed.
+Platform: linux (x64).
+Workspace folder ~/mineracao, Home = /home/arch
+17:17:27.575 [info] Start refreshing Kernel Picker (1713125847575)
+17:17:27.588 [info] Not using Pylance
+17:17:27.598 [info] End refreshing Kernel Picker (1713125847575)
+17:22:12.077 [info] Using Pylance
+17:22:14.890 [warn] Failed to get activated env vars for /bin/python in 79ms
+17:22:14.928 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+17:22:14.978 [info] Process Execution: /bin/python -m pip list
+17:22:15.051 [info] Process Execution: /bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:22:15.941 [info] End refreshing Kernel Picker (1713125847575)
+17:22:16.574 [info] No interpreter for Pylance for Notebook URI "~/mineracao/ex.ipynb"
+17:22:53.982 [info] Handle Execution of Cells 0 for ~/mineracao/ex.ipynb
+17:22:53.988 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.8) for '~/mineracao/ex.ipynb' (disableUI=false)
+17:22:54.127 [warn] Failed to get activated env vars for /bin/python in 123ms
+17:22:54.161 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:22:54.195 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-336206fawyql4wkljb.json
+    > cwd: ~/mineracao
+17:22:54.195 [info] Kernel process 413451.
+17:22:54.227 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for /bin/python
+17:22:54.255 [warn] StdErr from Kernel Process /bin/python: No module named ipykernel_launcher
+17:22:54.272 [error] Disposing kernel process due to an error Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+    > Interpreter Id = /bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /bin/python: No module named ipykernel_launcher
+17:22:54.272 [info] Dispose Kernel process 413451.
+17:22:54.284 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+17:22:54.284 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+17:22:54.285 [warn] Failed to shutdown kernel, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at cT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:340:15465)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async lT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:340:24053)]
+17:22:54.288 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+    > Interpreter Id = /bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /bin/python: No module named ipykernel_launcher
+17:22:54.289 [warn] Kernel Error, context = start Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+    > Interpreter Id = /bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /bin/python: No module named ipykernel_launcher
+17:22:54.321 [info] Process Execution: /bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:22:54.384 [info] Check & install missing Kernel dependencies for /bin/python, ui.disabled=false for resource '~/mineracao/ex.ipynb'
+17:22:54.419 [info] Process Execution: /bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:22:54.501 [info] Process Execution: /bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:22:58.912 [info] Process Execution: /bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:22:58.987 [info] Process Execution: /bin/python -m pip install -U --user ipykernel
+17:23:00.531 [error] Failed to install ipykernel error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try 'pacman -S
+    python-xyz', where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-<username>-packaged Python package,
+    create a virtual environment using 'python -m venv path/to/venv'.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip.
+    
+    If you wish to install a non-<username> packaged Python application,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. Make sure you have python-pipx
+    installed via pacman.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+
+17:23:00.534 [info] Dispose Kernel '~/mineracao/ex.ipynb' associated with '~/mineracao/ex.ipynb'
+17:23:00.537 [error] Error in execution Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+    > Interpreter Id = /bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /bin/python: No module named ipykernel_launcher
+17:23:00.539 [error] Error in execution (get message for cell) Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+    > Interpreter Id = /bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /bin/python: No module named ipykernel_launcher
+17:23:00.551 [info] Process Execution: /bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:23:00.611 [info] End cell 0 execution after 0s, completed @ undefined, started @ undefined
+17:24:03.956 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher  (Python Path: /sbin/python, Unknown, 3.11.8) for '~/mineracao/ex.ipynb' (disableUI=true)
+17:24:03.978 [warn] Failed to get activated env vars for /sbin/python in 40ms
+17:24:03.995 [info] Process Execution: /sbin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+17:24:03.997 [warn] Failed to get activated env vars for /sbin/python in 35ms
+17:24:04.049 [info] Process Execution: /sbin/python -m pip list
+17:24:04.062 [info] Process Execution: /sbin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:24:04.081 [info] Process Execution: /sbin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-336206j7RAKguQMDdy.json
+    > cwd: ~/mineracao
+17:24:04.081 [info] Kernel process 429355.
+17:24:04.095 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for /sbin/python
+17:24:04.109 [warn] StdErr from Kernel Process /sbin/python: No module named ipykernel_launcher
+17:24:04.113 [error] Disposing kernel process due to an error Error: The kernel died. Error: /sbin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+    > Interpreter Id = /sbin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /sbin/python: No module named ipykernel_launcher
+17:24:04.113 [info] Dispose Kernel process 429355.
+17:24:04.114 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /sbin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+17:24:04.114 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /sbin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+17:24:04.114 [warn] Failed to shutdown kernel, .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at cT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:340:15465)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async lT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:340:24053)]
+17:24:04.116 [warn] Error occurred while trying to start the kernel, options.disableUI=true Error: The kernel died. Error: /sbin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+    > Interpreter Id = /sbin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /sbin/python: No module named ipykernel_launcher
+17:24:05.048 [info] Handle Execution of Cells 0 for ~/mineracao/ex.ipynb
+17:24:05.052 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher  (Python Path: /sbin/python, Unknown, 3.11.8) for '~/mineracao/ex.ipynb' (disableUI=false)
+17:24:05.086 [info] Process Execution: /sbin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:24:05.146 [info] Process Execution: /sbin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-336206mjgRCqCvQlqe.json
+    > cwd: ~/mineracao
+17:24:05.147 [info] Kernel process 429646.
+17:24:05.151 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for /sbin/python
+17:24:05.177 [warn] StdErr from Kernel Process /sbin/python: No module named ipykernel_launcher
+17:24:05.186 [error] Disposing kernel process due to an error Error: The kernel died. Error: /sbin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+    > Interpreter Id = /sbin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /sbin/python: No module named ipykernel_launcher
+17:24:05.186 [info] Dispose Kernel process 429646.
+17:24:05.187 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /sbin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+17:24:05.187 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /sbin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+17:24:05.187 [warn] Failed to shutdown kernel, .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at cT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:340:15465)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async lT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:340:24053)]
+17:24:05.190 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: /sbin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+    > Interpreter Id = /sbin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /sbin/python: No module named ipykernel_launcher
+17:24:05.191 [warn] Kernel Error, context = start Error: The kernel died. Error: /sbin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+    > Interpreter Id = /sbin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /sbin/python: No module named ipykernel_launcher
+17:24:05.211 [info] Process Execution: /sbin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:24:05.251 [info] Check & install missing Kernel dependencies for /sbin/python, ui.disabled=false for resource '~/mineracao/ex.ipynb'
+17:24:05.267 [info] Process Execution: /sbin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:24:05.317 [info] Process Execution: /sbin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:24:08.477 [info] Process Execution: /sbin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:24:08.566 [info] Process Execution: /sbin/python -m pip install -U --user ipykernel
+17:24:09.722 [error] Failed to install ipykernel error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try 'pacman -S
+    python-xyz', where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-<username>-packaged Python package,
+    create a virtual environment using 'python -m venv path/to/venv'.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip.
+    
+    If you wish to install a non-<username> packaged Python application,
+    it may be easiest to use 'pipx install xyz', which will manage a
+    virtual environment for you. Make sure you have python-pipx
+    installed via pacman.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+
+17:24:09.727 [info] Dispose Kernel '~/mineracao/ex.ipynb' associated with '~/mineracao/ex.ipynb'
+17:24:09.728 [error] Error in execution Error: The kernel died. Error: /sbin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+    > Interpreter Id = /sbin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /sbin/python: No module named ipykernel_launcher
+17:24:09.729 [error] Error in execution (get message for cell) Error: The kernel died. Error: /sbin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+    > Interpreter Id = /sbin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:335:2012)
+    > stdErr = /sbin/python: No module named ipykernel_launcher
+17:24:09.749 [info] Process Execution: /sbin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+17:24:09.809 [info] End cell 0 execution after 0s, completed @ undefined, started @ undefined
+17:25:05.636 [info] Handle Execution of Cells 0 for ~/mineracao/ex.ipynb
+17:25:05.641 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher  (Python Path: /sbin/python, Unknown, 3.11.8) for '~/mineracao/ex.ipynb' (disableUI=false)
+17:25:05.740 [warn] Failed to get activated env vars for /sbin/python in 92ms
+17:25:05.760 [info] Process Execution: /sbin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:25:05.784 [info] Process Execution: /sbin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-336206mGRqtFpmmCm1.json
+    > cwd: ~/mineracao
+17:25:05.784 [info] Kernel process 442954.
+17:25:07.120 [warn] StdErr from Kernel Process [IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+17:25:07.211 [info] Registering Kernel Completion Provider from kernel Python 3.11.8 for language python
+17:25:07.224 [info] Kernel acknowledged execution of cell 0 @ 1713126307224
+17:25:07.578 [warn] Cell completed with errors [sd [Error]: No module named 'pandas'
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'pandas'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[1], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mpandas\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mpd\x1B[39;00m\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mmodel_selection\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m train_test_split, cross_val_score\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mtree\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m DecisionTreeClassifier\n',
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'pandas'"
+  ]
+}
+17:25:07.580 [info] End cell 0 execution after 0.354s, completed @ 1713126307578, started @ 1713126307224
+17:29:59.763 [info] Handle Execution of Cells 0 for ~/mineracao/ex.ipynb
+17:29:59.775 [info] Kernel acknowledged execution of cell 0 @ 1713126599775
+17:30:00.175 [warn] Cell completed with errors [sd [Error]: No module named 'sklearn'
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'sklearn'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[2], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mpandas\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mpd\x1B[39;00m\n' +
+      '\x1B[0;32m----> 2\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mmodel_selection\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m train_test_split, cross_val_score\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mtree\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m DecisionTreeClassifier\n' +
+      '\x1B[1;32m      4\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mneighbors\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m KNeighborsClassifier\n',
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'sklearn'"
+  ]
+}
+17:30:00.175 [info] End cell 0 execution after 0.4s, completed @ 1713126600175, started @ 1713126599775
+17:30:38.878 [info] Handle Execution of Cells 0 for ~/mineracao/ex.ipynb
+17:30:38.888 [info] Kernel acknowledged execution of cell 0 @ 1713126638887
+17:30:39.711 [warn] Cell completed with errors [sd [Error]: cannot import name 'plot_confusion_matrix' from 'sklearn.metrics' (~/.local/lib/python3.11/site-packages/sklearn/metrics/__init__.py)
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'ImportError',
+  evalue: "cannot import name 'plot_confusion_matrix' from 'sklearn.metrics' (~/.local/lib/python3.11/site-packages/sklearn/metrics/__init__.py)",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mImportError\x1B[0m                               Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[3], line 5\x1B[0m\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mtree\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m DecisionTreeClassifier\n' +
+      '\x1B[1;32m      4\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mneighbors\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m KNeighborsClassifier\n' +
+      '\x1B[0;32m----> 5\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mmetrics\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m accuracy_score, plot_confusion_matrix\n' +
+      '\x1B[1;32m      6\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mmatplotlib\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mpyplot\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mplt\x1B[39;00m\n' +
+      '\x1B[1;32m      8\x1B[0m \x1B[38;5;66;03m# Carregar o dataset\x1B[39;00m\n',
+    "\x1B[0;31mImportError\x1B[0m: cannot import name 'plot_confusion_matrix' from 'sklearn.metrics' (~/.local/lib/python3.11/site-packages/sklearn/metrics/__init__.py)"
+  ]
+}
+17:30:39.711 [info] End cell 0 execution after 0.824s, completed @ 1713126639711, started @ 1713126638887
+17:31:08.562 [info] Handle Execution of Cells 0 for ~/mineracao/ex.ipynb
+17:31:08.597 [info] Kernel acknowledged execution of cell 0 @ 1713126668597
+17:31:08.618 [warn] Cell completed with errors [sd [Error]: cannot import name 'plot_confusion_matrix' from 'sklearn.metrics' (~/.local/lib/python3.11/site-packages/sklearn/metrics/__init__.py)
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'ImportError',
+  evalue: "cannot import name 'plot_confusion_matrix' from 'sklearn.metrics' (~/.local/lib/python3.11/site-packages/sklearn/metrics/__init__.py)",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mImportError\x1B[0m                               Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[4], line 5\x1B[0m\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mtree\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m DecisionTreeClassifier\n' +
+      '\x1B[1;32m      4\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mneighbors\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m KNeighborsClassifier\n' +
+      '\x1B[0;32m----> 5\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mmetrics\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m accuracy_score, plot_confusion_matrix\n' +
+      '\x1B[1;32m      6\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mmatplotlib\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mpyplot\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mplt\x1B[39;00m\n' +
+      '\x1B[1;32m      8\x1B[0m \x1B[38;5;66;03m# Carregar o dataset\x1B[39;00m\n',
+    "\x1B[0;31mImportError\x1B[0m: cannot import name 'plot_confusion_matrix' from 'sklearn.metrics' (~/.local/lib/python3.11/site-packages/sklearn/metrics/__init__.py)"
+  ]
+}
+17:31:08.619 [info] End cell 0 execution after 0.021s, completed @ 1713126668618, started @ 1713126668597
+17:31:44.448 [info] Handle Execution of Cells 0 for ~/mineracao/ex.ipynb
+17:31:44.456 [info] Kernel acknowledged execution of cell 0 @ 1713126704455
+17:31:44.487 [warn] Cell completed with errors [sd [Error]: No module named 'matplotlib'
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'matplotlib'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 5\x1B[0m\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mtree\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m DecisionTreeClassifier\n' +
+      '\x1B[1;32m      4\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mneighbors\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m KNeighborsClassifier\n' +
+      '\x1B[0;32m----> 5\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mmatplotlib\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mpyplot\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mplt\x1B[39;00m\n' +
+      '\x1B[1;32m      7\x1B[0m \x1B[38;5;66;03m# Carregar o dataset\x1B[39;00m\n' +
+      "\x1B[1;32m      8\x1B[0m df \x1B[38;5;241m=\x1B[39m pd\x1B[38;5;241m.\x1B[39mread_csv(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mtitanic.csv\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'matplotlib'"
+  ]
+}
+17:31:44.487 [info] End cell 0 execution after 0.032s, completed @ 1713126704487, started @ 1713126704455
+17:32:04.924 [info] Handle Execution of Cells 0 for ~/mineracao/ex.ipynb
+17:32:04.938 [info] Kernel acknowledged execution of cell 0 @ 1713126724938
+17:32:19.256 [info] End cell 0 execution after 14.317s, completed @ 1713126739255, started @ 1713126724938
+17:32:22.988 [info] Handle Execution of Cells 0 for ~/mineracao/ex.ipynb
+17:32:22.996 [info] Kernel acknowledged execution of cell 0 @ 1713126742996
+17:32:23.047 [warn] Cell completed with errors [sd [Error]: No module named 'seaborn'
+	at r.execute (~/.vscode/extensions/ms-toolsai.jupyter-2024.2.0-linux-x64/dist/extension.node.js:322:4961)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'seaborn'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[7], line 8\x1B[0m\n' +
+      '\x1B[1;32m      6\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01msklearn\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mmetrics\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m accuracy_score, confusion_matrix\n' +
+      '\x1B[1;32m      7\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mmatplotlib\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mpyplot\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01mplt\x1B[39;00m\n' +
+      '\x1B[0;32m----> 8\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mseaborn\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m \x1B[38;5;21;01msns\x1B[39;00m\n' +
+      '\x1B[1;32m     10\x1B[0m \x1B[38;5;66;03m# Carregar o dataset\x1B[39;00m\n' +
+      "\x1B[1;32m     11\x1B[0m df \x1B[38;5;241m=\x1B[39m pd\x1B[38;5;241m.\x1B[39mread_csv(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mtitanic.csv\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'seaborn'"
+  ]
+}
+17:32:23.048 [info] End cell 0 execution after 0.051s, completed @ 1713126743047, started @ 1713126742996
+17:32:34.983 [info] Handle Execution of Cells 0 for ~/mineracao/ex.ipynb
+17:32:35.008 [info] Kernel acknowledged execution of cell 0 @ 1713126755008
+17:32:53.768 [info] End cell 0 execution after 18.758s, completed @ 1713126773766, started @ 1713126755008
+17:39:53.017 [info] Disposing HostJupyterExecution
+17:39:53.017 [info] Dispose Kernel '~/mineracao/ex.ipynb' associated with '~/mineracao/ex.ipynb'
+17:39:53.017 [info] Dispose Kernel '~/mineracao/ex.ipynb' associated with '~/mineracao/ex.ipynb'
+17:39:53.017 [info] Dispose Kernel '~/mineracao/ex.ipynb' associated with '~/mineracao/ex.ipynb'
+17:39:53.020 [info] Dispose Kernel process 442954.
+17:39:53.032 [info] Disposing HostJupyterExecution

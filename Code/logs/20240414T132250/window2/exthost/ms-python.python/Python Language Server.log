@@ -1,0 +1,80 @@
+2024-04-14 17:22:15.542 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.4.1)
+2024-04-14 17:22:16.536 [info] [Info  - 5:22:16 PM] (404907) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-04-14 17:22:16.536 [info] [Info  - 5:22:16 PM] (404907) Server root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-14 17:22:16.536 [info] [Info  - 5:22:16 PM] (404907) Starting service instance "mineracao"
+2024-04-14 17:22:16.591 [info] [Info  - 5:22:16 PM] (404907) Setting pythonPath for service "mineracao": "/bin/python"
+2024-04-14 17:22:16.592 [info] [Info  - 5:22:16 PM] (404907) Setting environmentName for service "mineracao": "3.11.8 (global)"
+2024-04-14 17:22:16.617 [info] [Info  - 5:22:16 PM] (404907) Assuming Python version 3.11.8.final.0
+2024-04-14 17:22:16.688 [info] [Info  - 5:22:16 PM] (404907) No source files found.
+2024-04-14 17:22:16.694 [info] [Info  - 5:22:16 PM] (404907) Starting service instance "mineracao"
+2024-04-14 17:22:16.743 [info] [Info  - 5:22:16 PM] (404907) Setting pythonPath for service "mineracao": "/home/arch/mineracao"
+2024-04-14 17:22:16.751 [info] [Info  - 5:22:16 PM] (404907) Setting environmentName for service "mineracao": "3.11.8 (global)"
+2024-04-14 17:22:16.819 [info] [Info  - 5:22:16 PM] (404907) No source files found.
+2024-04-14 17:22:17.671 [info] [Info  - 5:22:17 PM] (404907) Background analysis(1) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-14 17:22:17.678 [info] [Info  - 5:22:17 PM] (404907) Background analysis(1) started
+2024-04-14 17:22:17.958 [info] [Info  - 5:22:17 PM] (404907) Background analysis(2) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-14 17:22:17.959 [info] [Info  - 5:22:17 PM] (404907) Background analysis(2) started
+2024-04-14 17:22:18.021 [info] [Info  - 5:22:18 PM] (404907) Indexer background runner(3) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-04-14 17:22:18.023 [info] [Info  - 5:22:18 PM] (404907) Indexing(3) started
+2024-04-14 17:22:18.761 [info] [Info  - 5:22:18 PM] (404907) scanned(3) 1 files over 1 exec env
+2024-04-14 17:22:20.114 [info] [Info  - 5:22:20 PM] (404907) indexed(3) 1 files over 1 exec env
+2024-04-14 17:22:20.153 [info] [Info  - 5:22:20 PM] (404907) Indexing finished(3).
+2024-04-14 17:22:55.522 [info] [Info  - 5:22:55 PM] (404907) Indexer background runner(4) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-14 17:22:55.522 [info] [Info  - 5:22:55 PM] (404907) Indexing(4) started
+2024-04-14 17:22:56.561 [info] [Info  - 5:22:56 PM] (404907) scanned(4) 104 files over 1 exec env
+2024-04-14 17:22:58.725 [info] [Info  - 5:22:58 PM] (404907) indexed(4) 55 files over 1 exec env
+2024-04-14 17:22:58.852 [info] [Info  - 5:22:58 PM] (404907) Indexing finished(4).
+2024-04-14 17:25:07.244 [info] [Info  - 5:25:07 PM] (404907) Starting service instance "mineracao"
+2024-04-14 17:25:07.396 [info] [Info  - 5:25:07 PM] (404907) Setting pythonPath for service "mineracao": "/sbin/python"
+2024-04-14 17:25:07.404 [info] [Info  - 5:25:07 PM] (404907) Setting environmentName for service "mineracao": "3.11.8 (global)"
+2024-04-14 17:25:07.487 [info] [Info  - 5:25:07 PM] (404907) Assuming Python version 3.11.8.final.0
+2024-04-14 17:25:07.694 [info] [Info  - 5:25:07 PM] (404907) No source files found.
+2024-04-14 17:25:08.244 [info] [Info  - 5:25:08 PM] (404907) Indexer background runner(5) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-14 17:25:08.245 [info] [Info  - 5:25:08 PM] (404907) Indexing(5) started
+2024-04-14 17:25:08.396 [info] [Info  - 5:25:08 PM] (404907) Background analysis(6) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-14 17:25:08.402 [info] [Info  - 5:25:08 PM] (404907) Background analysis(6) started
+2024-04-14 17:25:08.991 [info] [Info  - 5:25:08 PM] (404907) scanned(5) 128 files over 1 exec env
+2024-04-14 17:25:11.087 [info] [Info  - 5:25:11 PM] (404907) indexed(5) 75 files over 1 exec env
+2024-04-14 17:25:11.873 [info] [Info  - 5:25:11 PM] (404907) scanned(5) 128 files over 1 exec env
+2024-04-14 17:25:12.895 [info] [Info  - 5:25:12 PM] (404907) indexed(5) 75 files over 1 exec env
+2024-04-14 17:25:13.025 [info] [Info  - 5:25:13 PM] (404907) Indexing finished(5).
+2024-04-14 17:27:45.516 [info] [Info  - 5:27:45 PM] (404907) Indexer background runner(7) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-14 17:27:45.517 [info] [Info  - 5:27:45 PM] (404907) Indexing(7) started
+2024-04-14 17:27:46.173 [info] [Info  - 5:27:46 PM] (404907) scanned(7) 128 files over 1 exec env
+2024-04-14 17:27:47.102 [info] [Info  - 5:27:47 PM] (404907) indexed(7) 75 files over 1 exec env
+2024-04-14 17:27:47.216 [info] [Info  - 5:27:47 PM] (404907) Indexing finished(7).
+2024-04-14 17:29:48.141 [info] [Info  - 5:29:48 PM] (404907) Indexer background runner(8) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-14 17:29:48.141 [info] [Info  - 5:29:48 PM] (404907) Indexing(8) started
+2024-04-14 17:29:48.741 [info] [Info  - 5:29:48 PM] (404907) scanned(8) 128 files over 1 exec env
+2024-04-14 17:29:49.785 [info] [Info  - 5:29:49 PM] (404907) indexed(8) 75 files over 1 exec env
+2024-04-14 17:29:50.010 [info] [Info  - 5:29:50 PM] (404907) Indexing finished(8).
+2024-04-14 17:30:03.185 [info] [Info  - 5:30:03 PM] (404907) Indexer background runner(9) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-14 17:30:03.185 [info] [Info  - 5:30:03 PM] (404907) Indexing(9) started
+2024-04-14 17:30:03.841 [info] [Info  - 5:30:03 PM] (404907) scanned(9) 131 files over 1 exec env
+2024-04-14 17:30:05.597 [info] [Info  - 5:30:05 PM] (404907) indexed(9) 77 files over 1 exec env
+2024-04-14 17:30:05.779 [info] [Info  - 5:30:05 PM] (404907) Indexing finished(9).
+2024-04-14 17:30:39.599 [info] [Info  - 5:30:39 PM] (404907) Indexer background runner(10) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-14 17:30:39.599 [info] [Info  - 5:30:39 PM] (404907) Indexing(10) started
+2024-04-14 17:30:40.500 [info] [Info  - 5:30:40 PM] (404907) scanned(10) 200 files over 1 exec env
+2024-04-14 17:30:43.642 [info] [Info  - 5:30:43 PM] (404907) indexed(10) 140 files over 1 exec env
+2024-04-14 17:30:43.897 [info] [Info  - 5:30:43 PM] (404907) Indexing finished(10).
+2024-04-14 17:32:09.681 [info] [Info  - 5:32:09 PM] (404907) Indexer background runner(11) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-14 17:32:09.682 [info] [Info  - 5:32:09 PM] (404907) Indexing(11) started
+2024-04-14 17:32:11.682 [info] [Info  - 5:32:11 PM] (404907) [BG(6)] Long operation: checking: file:///home/arch/mineracao/ex.ipynb.py#W0sZmlsZQ%3D%3D (2991ms)
+2024-04-14 17:32:11.683 [info] [Info  - 5:32:11 PM] (404907) [BG(6)] Long operation: analyzing: file:///home/arch/mineracao/ex.ipynb.py#W0sZmlsZQ%3D%3D (3008ms)
+2024-04-14 17:32:11.757 [info] [Info  - 5:32:11 PM] (404907) [BG(6)] Long operation: analyzing: file:///home/arch/mineracao/ex.ipynb.py#pylancePrefixCell (3311ms)
+2024-04-14 17:32:13.134 [info] [Info  - 5:32:13 PM] (404907) [IDX(11)] Long operation: scan packages file:///home/arch/mineracao (3437ms)
+2024-04-14 17:32:13.135 [info] [Info  - 5:32:13 PM] (404907) scanned(11) 293 files over 1 exec env
+2024-04-14 17:32:19.502 [info] [Info  - 5:32:19 PM] (404907) [IDX(11)] Long operation: index execution environment file:///home/arch/mineracao (3411ms)
+2024-04-14 17:32:19.519 [info] [Info  - 5:32:19 PM] (404907) [IDX(11)] Long operation: index packages file:///home/arch/mineracao (3623ms)
+2024-04-14 17:32:19.519 [info] [Info  - 5:32:19 PM] (404907) indexed(11) 207 files over 1 exec env
+2024-04-14 17:32:19.767 [info] [Info  - 5:32:19 PM] (404907) Indexing finished(11).
+2024-04-14 17:32:38.792 [info] [Info  - 5:32:38 PM] (404907) Indexer background runner(12) root directory: file:///home/arch/.vscode/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-14 17:32:38.792 [info] [Info  - 5:32:38 PM] (404907) Indexing(12) started
+2024-04-14 17:32:40.680 [info] [Info  - 5:32:40 PM] (404907) [BG(6)] Long operation: checking: file:///home/arch/mineracao/ex.ipynb.py#W0sZmlsZQ%3D%3D (3118ms)
+2024-04-14 17:32:40.681 [info] [Info  - 5:32:40 PM] (404907) [BG(6)] Long operation: analyzing: file:///home/arch/mineracao/ex.ipynb.py#W0sZmlsZQ%3D%3D (3196ms)
+2024-04-14 17:32:40.729 [info] [Info  - 5:32:40 PM] (404907) [BG(6)] Long operation: analyzing: file:///home/arch/mineracao/ex.ipynb.py#pylancePrefixCell (3592ms)
+2024-04-14 17:32:41.951 [info] [Info  - 5:32:41 PM] (404907) [IDX(12)] Long operation: scan packages file:///home/arch/mineracao (3141ms)
+2024-04-14 17:32:41.952 [info] [Info  - 5:32:41 PM] (404907) scanned(12) 294 files over 1 exec env
+2024-04-14 17:32:45.108 [info] [Info  - 5:32:45 PM] (404907) indexed(12) 208 files over 1 exec env
+2024-04-14 17:32:45.672 [info] [Info  - 5:32:45 PM] (404907) Indexing finished(12).
