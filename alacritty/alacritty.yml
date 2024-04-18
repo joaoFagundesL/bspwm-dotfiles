@@ -1,4 +1,6 @@
 import:
-  - ~/.config/alacritty/macaroni-dark.yaml
+  - ~/.config/alacritty/catppuccin.yml
   - ~/.config/alacritty/fonts.yml
   - ~/.config/alacritty/config.yml
+  
+

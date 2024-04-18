@@ -2,7 +2,7 @@
 
 # Terminal
 super + Return
-	alacritty
+	kitty
 
 # transpanrecy
 ctrl + alt + {plus,minus,t}
@@ -105,8 +105,8 @@ alt + Print
   scrot --delay 5 /tmp/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to /tmp/$(date +"%Y-%m-%d-%T")-screenshot.png"
 
 # Colorscheme changer
-alt + space
-  ~/.config/bspwm/bin/colorchanger
+# alt + space
+#   ~/.config/bspwm/bin/colorchanger
 
 # Volume
 super + ctrl + {minus,equal,0}
