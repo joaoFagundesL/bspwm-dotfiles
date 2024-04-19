@@ -53,11 +53,11 @@ bspc config gapless_monocle false
 INTERNAL_MONITOR="eDP1"
 EXTERNAL_MONITOR="HDMI1"
 if [[ $(xrandr -q | grep "${EXTERNAL_MONITOR} connected") ]]; then
-    bspc monitor "$EXTERNAL_MONITOR" -d '7' '8' '9' '10' '11' '12'
-    bspc monitor "$INTERNAL_MONITOR" -d '1' '2' '3' '4' '5' '6'
+    bspc monitor "$EXTERNAL_MONITOR" -d '6', '7' '8' '9' 
+    bspc monitor "$INTERNAL_MONITOR" -d '1' '2' '3' '4' '5'
     bspc wm -O "$INTERNAL_MONITOR" "$EXTERNAL_MONITOR"
 else
-    bspc monitor "$INTERNAL_MONITOR" -d '1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12'
+    bspc monitor "$INTERNAL_MONITOR" -d '1' '2' '3' '4' '5' '6' '7' '8' '9' 
 
 fi
 # Screen setup
