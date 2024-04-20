@@ -1,5 +1,6 @@
 * {
-    background:     #101010; /* bg_main */
+   /* DOOMONE */
+    background:     #282c34; /* bg_main */
     background-alt: #242424; /* bg_dim */
     foreground:     #d699c5;/* fg_red */
     selected:       #323232; /* bg_accent */
