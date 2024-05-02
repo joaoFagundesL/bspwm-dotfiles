@@ -56,8 +56,6 @@ substituir_palavra() {
     sed -i "s/include .\/$tema_antigo\.conf/include .\/$novo_tema\.conf/g" "$arquivo2"
 
     echo "Substituições concluídas:"
-    echo " - '$tema_antigo' foi substituído por '$novo_tema' em '$arquivo1'."
-    echo " - Linha 'include ./$tema_antigo.conf' foi atualizada para 'include ./$novo_tema.conf' em '$arquivo2'."
 
     xdotool keydown Super_L keydown Alt_L keydown r
     xdotool keyup r keyup Alt_L keyup Super_L

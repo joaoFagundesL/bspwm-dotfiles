@@ -1,11 +1,13 @@
 /*
 
 !bspwm/
-!kitty/
+!kitty/kitty-themes
 !walls/
 !ranger/
 !neofetch/
 !neofetch_ascii/
 !color_change/
+!.zshrc
+!.tmux.conf
 !.gitignore
 
