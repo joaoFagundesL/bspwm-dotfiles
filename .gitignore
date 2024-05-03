@@ -1,8 +1,14 @@
 /*
+
+!.zshrc
+!.tmux.conf
+
 !.gitignore
 !.README.md
 
 !bspwm/
+kitty/*
+!kitty/
 !kitty/DoomOne.conf
 !kitty/Dracula.conf
 !kitty/MonokaiPro.conf
@@ -17,6 +23,4 @@
 !neofetch/
 !neofetch_ascii/
 !color_change/
-!.zshrc
-!.tmux.conf
 
